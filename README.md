@@ -6,10 +6,15 @@ forEach文
 
 ## コード
 ```
-var team = ["佐藤", "鈴木", "田中", "岸田", "有森"];
-team.forEach (function (name) {
-    console.log(name + "さん");
-});
+(function () {
+    'use strict';
+
+    var team = ["佐藤", "鈴木", "田中", "岸田", "有森"];
+    team.forEach (function (name) {
+        console.log(name + "さん");
+    });
+
+})();
 ```
 
 ## 出力結果  
